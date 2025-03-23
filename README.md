@@ -9,7 +9,7 @@ DAGenie is a high-performance, distributed database purpose-built to manage Dire
 ## Features Roadmap
 
 - ✨ **DAG-First Design**: Optimized for storing and querying DAG structures.
-- 🔢 **Disk Persistence**: Leveraging BadgerDB for high-speed, embedded storage.
+- 🔢 **Disk Persistence**: High-speed embedded storage.
 - 🛡️ **Raft Consensus**: Strong consistency, replication, and leader election.
 - 📊 **Sharded Storage**: Scalable horizontal partitioning via consistent hashing.
 - 📊 **Replication**: Configurable replication factor with quorum writes/reads.
