@@ -8,16 +8,16 @@ DAGenie is a high-performance, distributed database purpose-built to manage Dire
 
 ## Features Roadmap
 
-- ✨ **DAG-First Design**: Optimized for storing and querying DAG structures.
-- 🔢 **Disk Persistence**: High-speed embedded storage.
-- 🛡️ **Raft Consensus**: Strong consistency, replication, and leader election.
-- 📊 **Sharded Storage**: Scalable horizontal partitioning via consistent hashing.
-- 📊 **Replication**: Configurable replication factor with quorum writes/reads.
-- ⚙️ **gRPC & TCP Interfaces**: Dual interfaces for custom app integration.
-- 🔍 **DQL Query Language**: Custom query language with WHERE, UPDATE, DELETE, COMMIT, ROLLBACK.
-- 🔎 **Full-Text Indexing**: Fast indexed DAG and task lookup.
+- ~~✨ **DAG-First Design**: Optimized for storing and querying DAG structures.~~  
+- ~~🔢 **Disk Persistence**: High-speed embedded storage.~~  
+- ~~🤑 **User Privileges**: Admin/user roles with scoped permissions.~~  
+- 🛡️ **Raft Consensus**: Strong consistency, replication, and leader election.  
+- 📊 **Sharded Storage**: Scalable horizontal partitioning via consistent hashing.  
+- 📊 **Replication**: Configurable replication factor with quorum writes/reads.  
+- ⚙️ **gRPC & TCP Interfaces**: Dual interfaces for custom app integration.  
+- 🔍 **DQL Query Language**: Custom query language with WHERE, UPDATE, DELETE, COMMIT, ROLLBACK.  
+- 🔎 **Full-Text Indexing**: Fast indexed DAG and task lookup.  
 - 🔄 **Gossip Protocol**: Cluster discovery, failure detection, auto-rebalancing.
-- 🤑 **User Privileges**: Admin/user roles with scoped permissions.
 
 ---
 
