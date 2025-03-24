@@ -34,7 +34,7 @@ cd dagenie
 ### 🔍 Running CLI
 
 ```bash
-dagenine serve [port]
+dagenine serve --db [db] --port [port]
 dagenie connect --host localhost --port [port]
 ```
 
