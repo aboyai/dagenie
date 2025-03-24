@@ -15,7 +15,6 @@ DAGenie is a high-performance, distributed database purpose-built to manage Dire
 - 📊 **Sharded Storage**: Scalable horizontal partitioning via consistent hashing.  
 - 📊 **Replication**: Configurable replication factor with quorum writes/reads.  
 - ⚙️ **gRPC & TCP Interfaces**: Dual interfaces for custom app integration.  
-- 🔍 **DQL Query Language**: Custom query language with WHERE, UPDATE, DELETE, COMMIT, ROLLBACK.  
 - 🔎 **Full-Text Indexing**: Fast indexed DAG and task lookup.  
 - 🔄 **Gossip Protocol**: Cluster discovery, failure detection, auto-rebalancing.
 
