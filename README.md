@@ -33,7 +33,7 @@ cd dagenie
 ### 🔍 Running CLI
 
 ```bash
-dagenine serve --db [db] --port [port] --node [nodeID] --bootstrap
+dagenine serve --db [db] --port [port] 
 dagenie connect --host localhost --port [port]
 ```
 
