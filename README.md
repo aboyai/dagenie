@@ -60,7 +60,7 @@ SELECT * FROM dag;
 ```
 
 ```sql
-SELECT name, SUM(duration) FROM dag GROUP BY name ORDER BY SUM(duration) DESC LIMIT 5;
+SELECT name, SUM(duration) FROM dag GROUP BY name ORDER BY SUM(duration) DESC LIMIT 1;
 ```
 
 ## Language Clients
