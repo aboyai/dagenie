@@ -27,13 +27,13 @@ DAGenie is a high-performance, distributed database purpose-built to manage Dire
 ```bash
 git clone https://github.com/aboyai/dagenie.git
 cd dagenie
-./build.bat
+.\build.bat [Windows] | ./build.sh [Linux]
 ```
 
 ### 🔍 Running CLI
 
 ```bash
-dagenine serve --db [db] --port [port]
+dagenine serve --db [db] --port [port] --node [nodeID] --bootstrap
 dagenie connect --host localhost --port [port]
 ```
 
