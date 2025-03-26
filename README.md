@@ -63,7 +63,7 @@ SELECT * FROM dag;
 SELECT name, SUM(duration) FROM dag GROUP BY name ORDER BY SUM(duration) DESC LIMIT 1;
 ```
 
-## Language Clients
+## Language Clients [Available Soon]
 
 - [Go Client](./clients/go/README.md)
 - [Java Client](./clients/java/README.md)
