@@ -2,7 +2,7 @@
 
 ## Purpose-Built for DAGs. Engineered for Speed.
 
-DAGenie is a high-performance, distributed database purpose-built to manage Directed Acyclic Graphs (DAGs). With disk persistence, clustered storage with sharding, replication, and a powerful query language (DQL), DAGenie empowers developers and system architects to build, manage, and introspect complex DAG workflows at scale.
+DAGenie is a high-performance, distributed DAG-Native database purpose-built to manage Directed Acyclic Graphs (DAGs). With disk persistence, clustered storage with sharding, replication, and a powerful query language (DQL), DAGenie empowers developers and system architects to build, manage, and introspect complex DAG workflows at scale.
 
 ---
 
