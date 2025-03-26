@@ -40,7 +40,19 @@ dagenie connect --host localhost --port [port]
 ### 🔍 Execute DQL via CLI
 
 ```sql
+CREATE DATABASE tasks;
+```
+
+```sql
+USE tasks;
+```
+
+```sql
 INSERT INTO dag (id, name, status, payload, dependencies, dagid, duration, retries) VALUES ('1', 'AWS', 'pending', '{}', '[]', 'abc234', 200, 10);
+```
+
+```sql
+INSERT INTO dag (id, name, status, payload, dependencies, dagid, duration, retries) VALUES ('2', 'AirFlow', 'pending', '{}', '[]', 'abc234', 120, 5);
 ```
 
 ```sql
